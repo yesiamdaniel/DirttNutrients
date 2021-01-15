@@ -11,4 +11,5 @@ target 'DIRTTNutrients' do
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
 
+  project './DIRTTNutrients.xcodeproj'
 end
