@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		204AC0486196EBA61EFD339C /* Pods_DIRTTNutrients.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0921240B6E8DE8C9D6CC13D /* Pods_DIRTTNutrients.framework */; };
 		403E232D22E6E1F900185FA2 /* CustomTableViewCellForSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403E232C22E6E1F800185FA2 /* CustomTableViewCellForSearch.swift */; };
 		405DF13B22DA8FD30011F01D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405DF13A22DA8FD30011F01D /* AppDelegate.swift */; };
 		405DF13D22DA8FD30011F01D /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405DF13C22DA8FD30011F01D /* HomeScreenViewController.swift */; };
@@ -25,9 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14A507102B2166F98F016107 /* Pods-DirttInventoryChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirttInventoryChecker.debug.xcconfig"; path = "Target Support Files/Pods-DirttInventoryChecker/Pods-DirttInventoryChecker.debug.xcconfig"; sourceTree = "<group>"; };
 		403E232C22E6E1F800185FA2 /* CustomTableViewCellForSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellForSearch.swift; sourceTree = "<group>"; };
-		405DF13722DA8FD30011F01D /* DIRTTNutrients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIRTTNutrients.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405DF13722DA8FD30011F01D /* DIRTTNutrients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = DIRTTNutrients.app; path = "/Users/philipineappiah/Desktop/DIRTTNutrients/build/Debug-iphoneos/DIRTTNutrients.app"; sourceTree = "<absolute>"; };
 		405DF13A22DA8FD30011F01D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		405DF13C22DA8FD30011F01D /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		405DF13F22DA8FD30011F01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,8 +42,6 @@
 		40F7898F22F950F80022650B /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
 		561596B3E9DAA02CB5BC9FC0 /* Pods-DIRTTNutrients.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIRTTNutrients.release.xcconfig"; path = "Target Support Files/Pods-DIRTTNutrients/Pods-DIRTTNutrients.release.xcconfig"; sourceTree = "<group>"; };
 		A14DFBC5A1465A5D5AA4F371 /* Pods-DIRTTNutrients.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIRTTNutrients.debug.xcconfig"; path = "Target Support Files/Pods-DIRTTNutrients/Pods-DIRTTNutrients.debug.xcconfig"; sourceTree = "<group>"; };
-		E0921240B6E8DE8C9D6CC13D /* Pods_DIRTTNutrients.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DIRTTNutrients.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F975A530D5EFE37E69ABC545 /* Pods-DirttInventoryChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirttInventoryChecker.release.xcconfig"; path = "Target Support Files/Pods-DirttInventoryChecker/Pods-DirttInventoryChecker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204AC0486196EBA61EFD339C /* Pods_DIRTTNutrients.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,18 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				405DF13922DA8FD30011F01D /* DIRTTNutrients */,
-				405DF13822DA8FD30011F01D /* Products */,
 				5275EAF76C7E27661D5BF118 /* Pods */,
-				92E2CC27F0FDF31828FF9A88 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		405DF13822DA8FD30011F01D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				405DF13722DA8FD30011F01D /* DIRTTNutrients.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		405DF13922DA8FD30011F01D /* DIRTTNutrients */ = {
@@ -119,20 +104,10 @@
 		5275EAF76C7E27661D5BF118 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				14A507102B2166F98F016107 /* Pods-DirttInventoryChecker.debug.xcconfig */,
-				F975A530D5EFE37E69ABC545 /* Pods-DirttInventoryChecker.release.xcconfig */,
 				A14DFBC5A1465A5D5AA4F371 /* Pods-DIRTTNutrients.debug.xcconfig */,
 				561596B3E9DAA02CB5BC9FC0 /* Pods-DIRTTNutrients.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		92E2CC27F0FDF31828FF9A88 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E0921240B6E8DE8C9D6CC13D /* Pods_DIRTTNutrients.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +156,7 @@
 				Base,
 			);
 			mainGroup = 405DF12E22DA8FD30011F01D;
-			productRefGroup = 405DF13822DA8FD30011F01D /* Products */;
+			productRefGroup = 405DF12E22DA8FD30011F01D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
